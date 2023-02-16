@@ -81,6 +81,5 @@ test:
 #
 production:
   <<: *default
-  database: moringa_production
-  username: moringa
-  password: <%= ENV["MORINGA_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+ 
