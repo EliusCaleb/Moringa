@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { DataGrid } from "@mui/x-data-grid";
-import { studentColumns, studentRows } from "../Helpers/dataTableSource";
+import { studentColumns } from "../Helpers/dataTableSource";
 import { Link } from "react-router-dom";
 
 const DataTable = ({ data }) => {

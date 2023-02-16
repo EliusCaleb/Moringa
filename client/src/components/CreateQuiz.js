@@ -46,6 +46,7 @@ const CreateQuiz = () => {
 
     try {
       const { data } = await axios.post("/mcqs", quizData);
+      
       setSuccess((success) => !success);
       setFormData({
         question: "",
@@ -126,6 +127,7 @@ const CreateQuiz = () => {
 
               <Button>Submit</Button>
             </BottomForm>
+            
           )}
           {success && (
             <MessageWrapper>

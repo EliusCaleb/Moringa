@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
-import Answer from "./answer/Answer";
+import Answer from "./answer/Answer.css";
 import { selectedAnswer } from "../redux/quizSlice";
 
 const Question = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import MoringaLogo from "../assests/images/hackerlogo.png";
+import MoringaLogo from "../assets/images/hackerlogo.png";
 
 const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 // import sidebar from "../CSS/_sidebar.scss";
-import image from "../assests/images/logo.png";
+import image from "../assets/images/logo.png";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import { AiOutlineHome } from "react-icons/ai";
 import { SlBookOpen } from "react-icons/sl";

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import image from "../assests/images/logo.png";
+import image from "../assets/images/logo.png";
 
 const SingleAssessmentSidebar = () => {
   return (

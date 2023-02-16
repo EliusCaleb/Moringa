@@ -22,6 +22,8 @@ const StudentKataAttempt = () => {
     const getAssessment = async () => {
       const { data } = await axios.get(`/assessments/${assessmentId}`);
       setAssessment(data);
+      
+      
     };
     getAssessment();
   }, [assessmentId]);
@@ -31,8 +33,9 @@ const StudentKataAttempt = () => {
       ...formData,
       [name]: value,
     });
+    
   };
-
+   
   const expand = () => {
     setExpanded((isQuizExpanded) => !isQuizExpanded);
   };

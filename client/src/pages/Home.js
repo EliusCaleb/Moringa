@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import MoringaImage from "../assests/images/pair1.png";
+import MoringaImage from "../assets/images/pair1.png";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 

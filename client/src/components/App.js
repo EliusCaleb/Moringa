@@ -5,7 +5,7 @@ import TmHome from "../pages/TmHome";
 import NewAssessment from "./NewAssessment";
 
 import List from "../pages/List";
-import Assignment from "../pages/Assignment";
+import Assignment from "../pages/Assessment";
 import Register from "../pages/signup/Register";
 import Login from "../pages/login/Login";
 
@@ -26,7 +26,7 @@ import { kataInputs, proseInputs } from "../Helpers/createFormSource";
 import Trial from "../pages/Trial";
 import New from "./New";
 import StudentProseAttempt from "../pages/StudentProseAttempt";
-import StudentAssignment from "../pages/StudentAssignment";
+import StudentAssignment from "../pages/StudentAssessment";
 import SendInvite from "./SendInvite";
 import Skata from "./Skata";
 import Squiz from "./Squiz";
