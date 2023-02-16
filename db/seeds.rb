@@ -41,6 +41,35 @@ Mcq.create(assessment_id: 2, question: "What do WebSockets do?", answers: ["They
 Mcq.create(assessment_id: 2, question: "What is the output of the following code? console.log('Hello World')", answers: ["Hello World", "Hello World!", "Hello World!", "Hello World"],correct_answer:"Hello World")
 Mcq.create(assessment_id: 2, question: "What is the output of the following code? console.log('Hello World')", answers: ["Hello World", "Hello World!", "Hello World!", "Hello World"],correct_answer:"Hello World")
 
+# Kata Question data
+puts "katas⏳..."
+Kataa.create(assessment_id: 1, question: "Write a program that prints 'Hello World' to the console", instructions: "In the windows alongside, write your solution and click submit")
+Kataa.create(assessment_id: 2, question: "Write a program that adds two numbers", instructions: "In the windows alongside, write your solution and click submit")
+Kataa.create(assessment_id: 3, question: "Write a program that multiplies two numbers", instructions: "In the windows alongside, write your solution and click submit")
+Kataa.create(assessment_id: 1, question: "Write a program that replaces all the vowels in a string with an exclamation mark", instructions: "In the windows alongside, write your solution and click submit")
+Kataa.create(assessment_id: 2, question: "Write a program that removes all the vowels in a string", instructions: "In the windows alongside, write your solution and click submit")
+Kataa.create(assessment_id: 3, question: "Write a program that returns the sum of all the numbers in an array", instructions: "In the windows alongside, write your solution and click submit")
+
+
+# Code Question data
+puts "Pros⏳..."
+Pro.create(assessment_id: 1, question: "Define security in a development context", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+Pro.create(assessment_id: 2, question: "Scalability is a key determinant in startups, give your take", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+Pro.create(assessment_id: 3, question: "Hiring perfection is not attainable. What are pointers to hire quality?", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+Pro.create(assessment_id: 1, question: "What is your understanding or ORMs in the modern dev world", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+Pro.create(assessment_id: 2, question: "Discuss the impact of automation in bid data firms", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+Pro.create(assessment_id: 3, question: "How would you resolve and mitigate an employer employee conflict sparked by policy misinterpretation?", instructions: "Answer, by providing relevant examples and pointers, your understandin and or tale on the questions asked")
+
+# Invitation data
+puts "Invites⏳..."
+Invite.create(tutor_id: 1, student_id: 1, assessment_id: 1, status: false)
+Invite.create(tutor_id: 1, student_id: 2, assessment_id: 1, status: false)
+Invite.create(tutor_id: 1, student_id: 3, assessment_id: 2, status: false)
+Invite.create(tutor_id: 1, student_id: 4, assessment_id: 1, status: false)
+Invite.create(tutor_id: 1, student_id: 5, assessment_id: 3, status: false)
+Invite.create(tutor_id: 1, student_id: 6, assessment_id: 3, status: false)
+Invite.create(tutor_id: 1, student_id: 7, assessment_id: 2, status: false)
+
 #Student profile
 puts "Studentprofile
 ⏳..."

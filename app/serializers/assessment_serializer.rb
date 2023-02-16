@@ -1,4 +1,9 @@
 class AssessmentSerializer < ActiveModel::Serializer
-  attributes :id, :assessment_title
+  attributes :id, :tutor_id, :assessment_title
   has_one :tutor
+  has_many :mcqs
+  has_many :kataas
+  has_many :pros
+  has_many :attempts
 end
+  

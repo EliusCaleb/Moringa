@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: one
+  tutor: one
+  assessment: one
+  mcq_score: 1
+  kataa_response: MyString
+  kataa_score: 1
+  pro_response: MyString
+  pro_score: 1
+  tutor_feedback: MyString
+  total: 1
+
+two:
+  student: two
+  tutor: two
+  assessment: two
+  mcq_score: 1
+  kataa_response: MyString
+  kataa_score: 1
+  pro_response: MyString
+  pro_score: 1
+  tutor_feedback: MyString
+  total: 1

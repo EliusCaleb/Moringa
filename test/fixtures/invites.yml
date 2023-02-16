@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: one
+  tutor: one
+  assessment: one
+  status: false
+
+two:
+  student: two
+  tutor: two
+  assessment: two
+  status: false
